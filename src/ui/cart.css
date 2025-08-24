@@ -1,0 +1,18 @@
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+/*  float: left; */
+  width: 20% !important;
+  padding: 10px;
+  
+  /*background-color: gray;*/
+  margin:25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: inline;
+  clear: both;
+}
